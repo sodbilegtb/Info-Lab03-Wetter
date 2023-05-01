@@ -16,9 +16,10 @@ subject = 'Sodoo is sending weather update from Berlin'
 
 ##compase email message
 message = f'The temperature in Berlin is {temperature} degrees Celsius and the weather is {description}.'
-subject = 'Sodoo is sending weather update from Berlin'
+subject = 'Weather update from Berlin'
 
 
 ## send the email
 ezgmail.send('sodko.beat27@gmail.com', subject, message)
+ezgmail.send('mshientran02@gmail.com', subject, message)
 
