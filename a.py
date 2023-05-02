@@ -10,6 +10,8 @@ temperature = data ['main']['temp']
 description = data['weather'][0]['description']
 
 
+
+
 ##compase email message
 message = f'The temperature in Berlin is {temperature} degrees Celsius and the weather is {description}.'
 subject = 'Weather update from Berlin'
