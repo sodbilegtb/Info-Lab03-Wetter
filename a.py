@@ -21,5 +21,5 @@ subject = 'Weather update from Berlin'
 
 ## send the email
 ezgmail.send('sodko.beat27@gmail.com', subject, message)
-ezgmail.send('mshientran02@gmail.com', subject, message)
+##ezgmail.send('mshientran02@gmail.com', subject, message)
 
